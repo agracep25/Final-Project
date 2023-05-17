@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JAPAN AIRLINE(JAL)</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Book your next flight with Japan Airline and experience the best travel experience to Japan.">
+    <meta name="keywords" content="Japan, airline, travel, flights, tourism">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <p style="background-image: url('img_girl.jpg');">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script></script>
+  </head>
+  <body>
+    <header>
+        <img src="logo.png" alt="Japan Airline logo">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#help">Help Center</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Experience Japan like never before</h1>
+        <p>Book your next flight with Japan Airline and enjoy the best travel experience to Japan.</p>
+        <!-- <button>Book now</button>  -->
+      </section>
+        <form id="flightFinderForm">
+          <label for="sourceAirport">Source Airport:</label>
+          <select type="sourceAirport" id="sourceAirport" name="sourceAirport" required>
+            <option value="" disabled selected>Select Destination</option>
+          <option value="China">China</option>
+          <option value="Egypt">Egypt</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="India">India</option>
+          <option value="Japan">Japan</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Kuwait">Kuwait</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Philippines">Philippines</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="Vietnam">Vietnam</option>
+        </select>
+        </form>
+        
+    
+        <label for="destinationAirport">Destination Airport:</label>
+        <select id="destinationAirport" name="destinationAirport" required>
+          <option value="" disabled selected>Select Destination</option>
+          <option value="China">China</option>
+          <option value="Egypt">Egypt</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="India">India</option>
+          <option value="Japan">Japan</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Kuwait">Kuwait</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Philippines">Philippines</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="Vietnam">Vietnam</option>
+        </select>
+    
+        <input type="submit" value="Find Flights">
+      </form>
+    
+      <div id="resultContainer">
+        <h2>Results:</h2>
+        <div id="flightResults"></div>
+        <p id="fare"></p>
+        <div id="travelTime"></div>
+      </div>
+      
+      <section id="about">
+        <h2>About us</h2>
+        <p>Japan Airline is your gateway to Japan. We offer the best travel experience to Japan, with world-class service and state-of-the-art facilities.</p>
+        <ul>
+          <li>This website has 12 destination from different country in Asia</li>
+          <li>We will find you a cheapest flight ticket to your destination</li>
+          <li>We will find you the shortest path to your destination without a hassle</li>
+          <br><b>To customers who wish to receive a refund.</b>
+          <p>We have prepared refund form for tickets that cannot be refunded through the website below.
+            <br>If you have a ticket that cannot be handled on the website, you can apply for a refund from the following link.</p>
+          <li>In the event of flight cancellation due to flight reduction or bad weather</li>
+          <li>If you are unable to fly due to illness or injury
+          <br>(Refund without charge based on uploading a doctor's certificate)</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Japan Airline. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
